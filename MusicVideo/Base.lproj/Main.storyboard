@@ -75,7 +75,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gql-iB-hl5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1588" y="518"/>
+            <point key="canvasLocation" x="1317" y="518"/>
         </scene>
         <!--Music Video DetailVC-->
         <scene sceneID="5Jo-Yr-spY">
@@ -134,9 +134,12 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="qHx-um-hGz" secondAttribute="trailing" id="1FK-Zb-1Go"/>
                             <constraint firstItem="Qrf-8f-RCU" firstAttribute="top" secondItem="XIS-t7-0k3" secondAttribute="bottom" constant="68" id="53j-pA-0kr"/>
+                            <constraint firstAttribute="trailing" secondItem="Qrf-8f-RCU" secondAttribute="trailing" id="5tS-Ny-PY2"/>
+                            <constraint firstItem="Qrf-8f-RCU" firstAttribute="top" secondItem="XIS-t7-0k3" secondAttribute="bottom" id="Fde-nT-Hr2"/>
                             <constraint firstItem="bJv-ro-j17" firstAttribute="leading" secondItem="OJ2-k5-UHr" secondAttribute="leadingMargin" id="J6w-4e-Jx5"/>
                             <constraint firstItem="qHx-um-hGz" firstAttribute="bottom" secondItem="ruE-dV-Yci" secondAttribute="top" id="NGj-Zm-AEq"/>
                             <constraint firstItem="Qrf-8f-RCU" firstAttribute="centerX" secondItem="OJ2-k5-UHr" secondAttribute="centerX" id="Sl1-o2-EI9"/>
+                            <constraint firstItem="ruE-dV-Yci" firstAttribute="top" secondItem="Qrf-8f-RCU" secondAttribute="bottom" constant="26" id="TWf-Re-MaC"/>
                             <constraint firstItem="Coj-I7-4cr" firstAttribute="leading" secondItem="OJ2-k5-UHr" secondAttribute="leadingMargin" constant="-13" id="UZ4-Xn-7o4"/>
                             <constraint firstItem="Qrf-8f-RCU" firstAttribute="trailing" secondItem="qHx-um-hGz" secondAttribute="trailing" id="Uur-TP-jAA"/>
                             <constraint firstItem="qHx-um-hGz" firstAttribute="top" secondItem="bJv-ro-j17" secondAttribute="bottom" constant="8" symbolic="YES" id="XOS-8G-VrV"/>
@@ -145,9 +148,47 @@
                             <constraint firstItem="bJv-ro-j17" firstAttribute="centerY" secondItem="gDr-bg-Pvh" secondAttribute="centerY" id="bD9-cl-bt3"/>
                             <constraint firstItem="gDr-bg-Pvh" firstAttribute="baseline" secondItem="bJv-ro-j17" secondAttribute="baseline" id="gIz-Rr-CUk"/>
                             <constraint firstItem="bJv-ro-j17" firstAttribute="top" secondItem="Qrf-8f-RCU" secondAttribute="bottom" constant="1" id="niF-gM-sz0"/>
+                            <constraint firstItem="Qrf-8f-RCU" firstAttribute="leading" secondItem="OJ2-k5-UHr" secondAttribute="leading" id="pkz-W7-2lZ"/>
                             <constraint firstItem="Coj-I7-4cr" firstAttribute="top" secondItem="XIS-t7-0k3" secondAttribute="bottom" id="uq9-we-Odf"/>
                             <constraint firstItem="gDr-bg-Pvh" firstAttribute="trailing" secondItem="OJ2-k5-UHr" secondAttribute="trailingMargin" id="vVk-IN-VWb"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5tS-Ny-PY2"/>
+                                <exclude reference="Fde-nT-Hr2"/>
+                                <exclude reference="pkz-W7-2lZ"/>
+                                <exclude reference="TWf-Re-MaC"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="Coj-I7-4cr"/>
+                                <exclude reference="bJv-ro-j17"/>
+                                <exclude reference="gDr-bg-Pvh"/>
+                                <exclude reference="qHx-um-hGz"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="UZ4-Xn-7o4"/>
+                                <exclude reference="uq9-we-Odf"/>
+                                <exclude reference="J6w-4e-Jx5"/>
+                                <exclude reference="bD9-cl-bt3"/>
+                                <exclude reference="niF-gM-sz0"/>
+                                <exclude reference="1FK-Zb-1Go"/>
+                                <exclude reference="NGj-Zm-AEq"/>
+                                <exclude reference="XOS-8G-VrV"/>
+                                <exclude reference="aT8-gk-1Ye"/>
+                                <exclude reference="gIz-Rr-CUk"/>
+                                <exclude reference="vVk-IN-VWb"/>
+                                <exclude reference="53j-pA-0kr"/>
+                                <include reference="5tS-Ny-PY2"/>
+                                <include reference="Fde-nT-Hr2"/>
+                                <exclude reference="Sl1-o2-EI9"/>
+                                <exclude reference="Uur-TP-jAA"/>
+                                <exclude reference="a1K-XZ-BcE"/>
+                                <include reference="pkz-W7-2lZ"/>
+                                <include reference="TWf-Re-MaC"/>
+                            </mask>
+                        </variation>
                     </view>
                     <toolbarItems>
                         <barButtonItem systemItem="play" id="77p-M7-kGr">
@@ -168,7 +209,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ykJ-R8-LHd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2323" y="518"/>
+            <point key="canvasLocation" x="2062" y="517.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fdY-ew-d0o">
