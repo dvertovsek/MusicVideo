@@ -21,6 +21,7 @@
 		E49D61DD1D0EEE8100445F66 /* MusicVideoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D61DC1D0EEE8100445F66 /* MusicVideoTVC.swift */; };
 		E49D61DF1D0EF9C300445F66 /* MusicVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D61DE1D0EF9C300445F66 /* MusicVideoTableViewCell.swift */; };
 		E49D61E11D0F23BD00445F66 /* MusicVideoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D61E01D0F23BD00445F66 /* MusicVideoDetailVC.swift */; };
+		E49D61E51D0F513200445F66 /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D61E41D0F513200445F66 /* SettingsTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		E49D61DC1D0EEE8100445F66 /* MusicVideoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTVC.swift; sourceTree = "<group>"; };
 		E49D61DE1D0EF9C300445F66 /* MusicVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTableViewCell.swift; sourceTree = "<group>"; };
 		E49D61E01D0F23BD00445F66 /* MusicVideoDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoDetailVC.swift; sourceTree = "<group>"; };
+		E49D61E41D0F513200445F66 /* SettingsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				E49D61DC1D0EEE8100445F66 /* MusicVideoTVC.swift */,
 				E49D61DE1D0EF9C300445F66 /* MusicVideoTableViewCell.swift */,
 				E49D61E01D0F23BD00445F66 /* MusicVideoDetailVC.swift */,
+				E49D61E41D0F513200445F66 /* SettingsTVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				E49D61D61D0E9CC800445F66 /* MusicVideo.swift in Sources */,
 				E49D619F1D0E870A00445F66 /* AppDelegate.swift in Sources */,
 				E49D61DB1D0EB73B00445F66 /* Reachability.m in Sources */,
+				E49D61E51D0F513200445F66 /* SettingsTVC.swift in Sources */,
 				E49D61D41D0E9BAF00445F66 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
