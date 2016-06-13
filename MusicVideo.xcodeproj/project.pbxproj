@@ -18,6 +18,7 @@
 		E49D61D41D0E9BAF00445F66 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D61D31D0E9BAF00445F66 /* Constants.swift */; };
 		E49D61D61D0E9CC800445F66 /* MusicVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D61D51D0E9CC800445F66 /* MusicVideo.swift */; };
 		E49D61DB1D0EB73B00445F66 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E49D61DA1D0EB73B00445F66 /* Reachability.m */; };
+		E49D61DD1D0EEE8100445F66 /* MusicVideoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D61DC1D0EEE8100445F66 /* MusicVideoTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		E49D61D81D0EB73A00445F66 /* MusicVideo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicVideo-Bridging-Header.h"; sourceTree = "<group>"; };
 		E49D61D91D0EB73B00445F66 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		E49D61DA1D0EB73B00445F66 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E49D61DC1D0EEE8100445F66 /* MusicVideoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				E49D61A01D0E870A00445F66 /* ViewController.swift */,
+				E49D61DC1D0EEE8100445F66 /* MusicVideoTVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49D61DD1D0EEE8100445F66 /* MusicVideoTVC.swift in Sources */,
 				E49D61D11D0E8F5000445F66 /* APIManager.swift in Sources */,
 				E49D61A11D0E870A00445F66 /* ViewController.swift in Sources */,
 				E49D61D61D0E9CC800445F66 /* MusicVideo.swift in Sources */,
