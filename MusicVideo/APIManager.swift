@@ -1,11 +1,3 @@
-//
-//  APIManager.swift
-//  MusicVideo
-//
-//  Created by Michael Rudowsky on 9/10/15.
-//  Copyright © 2015 Michael Rudowsky. All rights reserved.
-//
-
 import Foundation
 
 class APIManager {
