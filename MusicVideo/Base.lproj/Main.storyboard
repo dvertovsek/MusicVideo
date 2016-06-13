@@ -296,6 +296,9 @@
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MHQ-4D-L8i">
                                                     <rect key="frame" x="535" y="26" width="51" height="31"/>
+                                                    <connections>
+                                                        <action selector="touchIdSecurity:" destination="lbE-4f-Sic" eventType="valueChanged" id="2O0-mJ-VQs"/>
+                                                    </connections>
                                                 </switch>
                                             </subviews>
                                             <constraints>
