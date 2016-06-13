@@ -20,6 +20,7 @@
 		E49D61DB1D0EB73B00445F66 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E49D61DA1D0EB73B00445F66 /* Reachability.m */; };
 		E49D61DD1D0EEE8100445F66 /* MusicVideoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D61DC1D0EEE8100445F66 /* MusicVideoTVC.swift */; };
 		E49D61DF1D0EF9C300445F66 /* MusicVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D61DE1D0EF9C300445F66 /* MusicVideoTableViewCell.swift */; };
+		E49D61E11D0F23BD00445F66 /* MusicVideoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D61E01D0F23BD00445F66 /* MusicVideoDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		E49D61DA1D0EB73B00445F66 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		E49D61DC1D0EEE8100445F66 /* MusicVideoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTVC.swift; sourceTree = "<group>"; };
 		E49D61DE1D0EF9C300445F66 /* MusicVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTableViewCell.swift; sourceTree = "<group>"; };
+		E49D61E01D0F23BD00445F66 /* MusicVideoDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				E49D61A01D0E870A00445F66 /* ViewController.swift */,
 				E49D61DC1D0EEE8100445F66 /* MusicVideoTVC.swift */,
 				E49D61DE1D0EF9C300445F66 /* MusicVideoTableViewCell.swift */,
+				E49D61E01D0F23BD00445F66 /* MusicVideoDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49D61DD1D0EEE8100445F66 /* MusicVideoTVC.swift in Sources */,
+				E49D61E11D0F23BD00445F66 /* MusicVideoDetailVC.swift in Sources */,
 				E49D61D11D0E8F5000445F66 /* APIManager.swift in Sources */,
 				E49D61A11D0E870A00445F66 /* ViewController.swift in Sources */,
 				E49D61DF1D0EF9C300445F66 /* MusicVideoTableViewCell.swift in Sources */,
