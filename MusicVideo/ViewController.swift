@@ -2,7 +2,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var videos = [Videos]()
+    var videos = [Video]()
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
             completion: didLoadData)
     }
     
-    func didLoadData(videos: [Videos]){
+    func didLoadData(videos: [Video]){
         
         print(reachabilityStatus)
         

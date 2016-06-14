@@ -22,6 +22,7 @@
 		E49D61DF1D0EF9C300445F66 /* MusicVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D61DE1D0EF9C300445F66 /* MusicVideoTableViewCell.swift */; };
 		E49D61E11D0F23BD00445F66 /* MusicVideoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D61E01D0F23BD00445F66 /* MusicVideoDetailVC.swift */; };
 		E49D61E51D0F513200445F66 /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D61E41D0F513200445F66 /* SettingsTVC.swift */; };
+		E4D37E591D103C110085A6A0 /* JsonDataExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D37E581D103C110085A6A0 /* JsonDataExtractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		E49D61DE1D0EF9C300445F66 /* MusicVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTableViewCell.swift; sourceTree = "<group>"; };
 		E49D61E01D0F23BD00445F66 /* MusicVideoDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoDetailVC.swift; sourceTree = "<group>"; };
 		E49D61E41D0F513200445F66 /* SettingsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTVC.swift; sourceTree = "<group>"; };
+		E4D37E581D103C110085A6A0 /* JsonDataExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonDataExtractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			children = (
 				E49D61D01D0E8F5000445F66 /* APIManager.swift */,
 				E49D61D51D0E9CC800445F66 /* MusicVideo.swift */,
+				E4D37E581D103C110085A6A0 /* JsonDataExtractor.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				E49D61E11D0F23BD00445F66 /* MusicVideoDetailVC.swift in Sources */,
 				E49D61D11D0E8F5000445F66 /* APIManager.swift in Sources */,
 				E49D61A11D0E870A00445F66 /* ViewController.swift in Sources */,
+				E4D37E591D103C110085A6A0 /* JsonDataExtractor.swift in Sources */,
 				E49D61DF1D0EF9C300445F66 /* MusicVideoTableViewCell.swift in Sources */,
 				E49D61D61D0E9CC800445F66 /* MusicVideo.swift in Sources */,
 				E49D619F1D0E870A00445F66 /* AppDelegate.swift in Sources */,

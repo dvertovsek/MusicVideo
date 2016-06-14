@@ -2,9 +2,9 @@ import UIKit
 
 class MusicVideoTVC: UITableViewController {
     
-    var videos = [Videos]()
+    var videos = [Video]()
 
-    var filterSearch = [Videos]()
+    var filterSearch = [Video]()
     
     let resultSearchController = UISearchController(searchResultsController: nil)//ako ocemo prikazivati rezultate u istom viewu = nil
     
@@ -12,6 +12,16 @@ class MusicVideoTVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        /*
+        #if swift(>=2.2)
+            NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(MusicVideoTVC.preferredfontchange), name: "ReachStatusChanged", object: nil)
+            
+        
+        #else
+        
+        #endif
+        */
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "reachabilityStatusChanged", name: "ReachStatusChanged", object: nil)
         
@@ -25,7 +35,7 @@ class MusicVideoTVC: UITableViewController {
         print("the preferred font has changeg")
     }
     
-    func didLoadData(videos: [Videos]){
+    func didLoadData(videos: [Video]){
         
         print(reachabilityStatus)
         
@@ -182,7 +192,7 @@ class MusicVideoTVC: UITableViewController {
         if segue.identifier == storyboard.segueIdentifier{
             if let indexPath = tableView.indexPathForSelectedRow{
                 
-                let video: Videos
+                let video: Video
                 
                 if resultSearchController.active{
                     video = filterSearch[indexPath.row]
