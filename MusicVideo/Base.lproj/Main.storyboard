@@ -214,6 +214,9 @@
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="WZh-BC-NPs"/>
                         <barButtonItem systemItem="action" id="gM6-ng-fuc">
                             <color key="tintColor" red="1" green="0.1601525483" blue="0.064542329529999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="socialMedia:" destination="mN1-yB-Fxu" id="n8v-Ky-8G9"/>
+                            </connections>
                         </barButtonItem>
                     </toolbarItems>
                     <connections>
